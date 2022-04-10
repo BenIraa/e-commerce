@@ -1,9 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  BrowserRouter as Router ,Route,Link
 } from "react-router-dom";
 
 // Importing Components Files
@@ -14,20 +11,10 @@ function App() {
   return (
     <>    
     <div className="App">
-      <Header/>
+      <UserPage/>
     </div>
 
-    {/* <Router>
-      <Switch>
-        <Route exact path="/">
-          <Header />
-          </Route>
-          <Route path="/UserPage">
-          <UserPage />
-          </Route>
-      </Switch>
-    </Router>
-    */}
+   
     </>
 
   );
